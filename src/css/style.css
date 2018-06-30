@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.main-header {
+  min-height: 545px;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.all-navigation {
+
+}
+.all-navigation img {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  margin-top: 49px;
+}
+.main-navigation {
+  width: 800px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  margin-top: 77px;
+  margin-left: 200px;
+  font-size: 16px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+  list-style: none;
+}
+.main-navigation-item {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 49px;
+}
+.cart {
+  display: inline-block;
+  vertical-align: top;
+}
+.main-navigation a {
+  color: #000000;
+  text-decoration: none;
+}
