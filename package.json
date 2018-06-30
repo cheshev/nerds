@@ -9,7 +9,7 @@
   "author": "Ilya Cheshev",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.4",
+    "browser-sync": "^2.24.5",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.2.0",
