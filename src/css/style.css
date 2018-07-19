@@ -424,39 +424,81 @@ h2 {
   margin-top: 80px;
 }
 .map {
-  height: 416px;
-  margin: 0;
-  padding: 0;
-  background-color: #b5b5b5;
-  background-image: url(../img);
-}
-.map .container {
+  position: relative;
   width: 1160px;
-  height: auto;
+  height: 417px;
   margin: 0 auto;
   padding: 0 20px;
+  background-image: url(../img/map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.map img {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: 700px;
 }
 .contacts {
+  content: "";
+  position: absolute;
+  top: 54px;
   width: 319px;
-  height: 308px;
-  /* margin: 0;
-  padding: 0; */
+  height: 307px;
   background-color: #ffffff;
 }
-.contacts p {
+.contacts-name {
   margin: 0;
   padding: 0;
-}
-.contacts-name {
-  margin-top: 48px;
   margin-left: 50px;
+  margin-top: 48px;
   font-size: 18px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.contacts .btn {
+.contacts-adress {
   margin: 0;
   padding: 0;
+  margin-left: 50px;
+  margin-top: 27px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+.contacts-phone {
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+  margin-top: 21px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+.contacts .btn {
+  padding: 0;
+  width: 219px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 36px;
+  border-radius: 3px;
+  background-color: #fb565a;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+}
+.contacts .btn:hover {
+  background-color: #e74246;
+}
+.contacts .btn:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
 }
 .social {
   width: 1160px;
@@ -525,4 +567,49 @@ h2 {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
+}
+.modal-content {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 960px;
+  height: 590px;
+  box-shadow: 0 20px 40px rgba(0,1,1,0.75);
+  background-color: #ffffff;
+  z-index: 1000;
+
+  /* display: none; */
+}
+.modal-content-show {
+  display: block;
+}
+.modal-content input {
+  margin-left: 100px;
+  border: 2px #d7dcde solid;
+  border-radius: 2px;
+}
+.modal-content-close {
+  position: absolute;
+  
+}
+.headline {
+  margin: 0;
+  padding: 0;
+  margin-top: 73px;
+  margin-left: 100px;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+.input-1 {
+  width: 356px;
+  height: 46px;
+}
+.input-2 {
+  width: 356px;
+  height: 46px;
+}
+.input-3 {
+  width: 756px;
+  height: 114px;
 }

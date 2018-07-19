@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Nerd's</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -118,13 +119,12 @@
     </main>
     <footer class="main-footer">
       <div class="map">
-        <div class="container">
-          <div class="contacts">
-            <p class="contacts-name">Nerd's design studio</p>
-            <p class="contacts-adress">191186, Санкт-Петербург<br> ул. Б. Конюшенная, д. 19/8</p>
-            <p class="contacts-phone">тел. +7 (812)275-75-75</p>
-            <button class="btn" type="button">Напишите нам</button>
-          </div>
+        <img src="img/map-marker.png">
+        <div class="contacts">
+          <p class="contacts-name">Nerd's design studio</p>
+          <p class="contacts-adress">191186, Санкт-Петербург<br> ул. Б. Конюшенная, д. 19/8</p>
+          <p class="contacts-phone">тел. +7 (812)275-75-75</p>
+          <button class="btn" type="button">Напишите нам</button>
         </div>
       </div>
       <div class="social">
@@ -137,5 +137,15 @@
         </div>
       </div>
     </footer>
+    <div class="modal-content">
+      <p class="headline">Напишите нам</p>
+      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+      <form class="feedback" action="#" method="post">
+        <p class="sign">Ваше имя:</p><input class="input-1" type="text" placeholder="Представьтесь, пожалуйста">
+        <p class="sign">Ваш e-mail:</p><input class="input-2" type="text" placeholder="Для отправки ответа">
+        <p class="sign">Текст письма:</p><input class="input-3" type="text" placeholder="В свободной форме">
+        <button class="btn" type="submit">Отправить</button>
+      </form>
+    </div>
   </body>
 </html>
