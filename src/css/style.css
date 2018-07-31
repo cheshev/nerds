@@ -578,10 +578,10 @@ h2 {
   background-color: #ffffff;
   z-index: 1000;
 
-  /* display: none; */
+  display: none;
 }
-.modal-content-show {
-  display: block;
+/*.modal-content-show {
+  display: block;*/
 }
 .modal-content input {
   margin-left: 100px;
