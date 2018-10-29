@@ -578,11 +578,11 @@ h2 {
   background-color: #ffffff;
   z-index: 1000;
 
-  /* display: none; */
+  display: none;
 }
-.modal-content-show {
+/*.modal-content-show {
   display: block;
-}
+}*/
 .modal-content input {
   margin-left: 100px;
   border: 2px #d7dcde solid;
@@ -590,7 +590,7 @@ h2 {
 }
 .modal-content-close {
   position: absolute;
-  
+
 }
 .headline {
   margin: 0;
@@ -612,4 +612,27 @@ h2 {
 .input-3 {
   width: 756px;
   height: 114px;
+}
+.inner-page-header {
+  height: 356px;
+  margin-bottom: 0px;
+}
+.inner-page-header h1 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  margin-left: 220px;
+  margin-top: 95px;
+}
+
+/*Inner page*/
+
+.product-images {
+  width: 760px;
+}
+.product-image {
+  position: relative;
+}
+.product-image-more {
+  
 }
