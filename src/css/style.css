@@ -636,7 +636,6 @@ h2 {
   width: 760px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 .product-image {
   margin: 0;
