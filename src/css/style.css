@@ -798,8 +798,9 @@ h2 {
   line-height: 18px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #b2b2b2;
+  color: #cccccc;
   outline: none;
+  cursor: pointer;
 }
 .btn-sortbyname {
   margin-right: 50px;
@@ -812,14 +813,114 @@ h2 {
 	height: 0;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
-	border-top: 10px solid black;
+	border-top: 10px solid #cccccc;
+  cursor: pointer;
 }
 .triangle-up {
   margin-top: 54px;
   margin-bottom: 24px;
-  width: 0;5
+  width: 0;
 	height: 0;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
-	border-bottom: 10px solid #b2b2b2;
+	border-bottom: 10px solid #cccccc;
+  cursor: pointer;
+}
+.btn-sortby:hover,
+.triangle-down:hover,
+.triangle-up:hover {
+  color: #999999;
+}
+.btn-sortby:active,
+.triangle-down:active,
+.triangle-up:active {
+  color: #000000;
+}
+
+/* Price filter */
+
+.range-filter {
+  width: 240px;
+}
+.range-controls {
+  position: relative;
+  height: 80px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.range-controls .scale {
+  margin-top: 39px;
+  height: 2px;
+  background: #d7dcde;
+}
+.range-controls .bar {
+  height: 2px;
+  background: #00ca74;
+}
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 4px;
+  height: 4px;
+  border: 8px solid white;
+  background: #ababab;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+.range-controls .max-toggle {
+  left: 145px;
+}
+.price-controls input {
+  width: 60px;
+  padding: 8px 10px;
+  margin-left: 10px;
+  border: none;
+  background: #f1f1f1;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #283136;
+  border-radius: 5px;
+}
+.price-controls .min-price {
+  margin-right: 12px;
+}
+.price-controls {
+  white-space: nowrap;
+}
+.inner-content-left {
+  margin-right: 140px;
+}
+.inner-content-left p {
+  margin: 0;
+  padding: 0;
+  margin-top: 57px;
+  margin-bottom: 51px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.radiobuttons p,
+.checkboxs p {
+  margin: 0;
+  padding: 0;
+}
+.radiobuttons {
+  margin-top: 56px;
+}
+.radiobuttons,
+.checkboxs {
+  margin-bottom: 45px;
+}
+.radiobuttons label,
+.checkboxs label {
+  display: block;
 }
